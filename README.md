@@ -2,3 +2,8 @@ Microservices application on Cloud Foundry / PaaS platform are by default not pr
 
 http://acloudfan.com/protecting-microservices-on-paas
 
+To test you need to follow the steps below:
+
+1. Download and import the code in IDE/Eclipse
+2. Change the manifest file for name/host 
+3. 

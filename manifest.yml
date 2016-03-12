@@ -1,0 +1,13 @@
+applications:
+- path: target/BootcampTemplate.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: CloudCheck
+  host: CloudCheck
+  disk_quota: 1024M
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  env: 
+    X_AUTHORIZATION_UPS_NAME: MSRestAuthorization
+  services:
+     - MSRestAuthorization
